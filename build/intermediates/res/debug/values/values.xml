@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/zhangyiming1/Desktop/Security0337/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000</color>
+    <color name="canvas">#DEE3E7</color>
+    <color name="deepgray">#636973</color>
+    <color name="forum_display_item_title_color">#22229C</color>
+    <color name="gray">#808080</color>
+    <color name="item_header_color">#E2E7EE</color>
+    <color name="item_pressed">#E5E5E5</color>
+    <color name="quick_reply_btn_pressed">#E5E5E5</color>
+    <color name="red">#B22222</color>
+    <color name="tab_color_bg">#E0E0E0</color>
+    <color name="title_header_color">#40567E</color>
+    <color name="title_header_color_dark">#25334B</color>
+    <color name="title_header_color_light">#6E88B6</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/D:/zhangyiming1/Desktop/Security0337/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Security</string>
+    <string name="hello">SECURITY</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="NormalPageTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/noAnimation</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- From: file:/D:/zhangyiming1/Desktop/Security0337/res/values/bottom_menu_style.xml -->
+    <eat-comment/>
+    <style name="bottom_menu_style">
+        <item name="android:textSize">10dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bottom_button_selected</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!-- From: file:/D:/zhangyiming1/Desktop/Security0337/res/values/strings.xml -->
+    <eat-comment/>
+    <style name="noAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+</resources>
